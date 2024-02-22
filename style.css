@@ -101,7 +101,38 @@ h4{
     margin-bottom: 1.7em;
 }
 
-footer{
+footer {
+    background-color: #7c7d82;
+    padding: 20px;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .col-6 {
+    width: 48%;
+  }
+  .col-right {
+    text-align: right;
+  }
+  .accordion-item {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .accordion-item a {
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #333;
+  }
+  .accordion-content {
+    display: none;
+    padding-left: 20px;
+  }
+
+/* footer{
     background-color: #7c7d82;
     padding-top:2em;
 }
@@ -120,11 +151,33 @@ footer h4{
 
 footer li{
     color: white;
-}
+} */
 
 .section-contact button{
     margin-bottom: 2em;
 }
+
+.slider {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .proyek-image {
+    width: 100%;
+    padding-right: 1rem ;
+  }
+
+  .popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 9999;
+  }
 
 @media screen and (max-width: 600px) {
 .section-aboutme p {
